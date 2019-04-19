@@ -7,5 +7,5 @@ export default {
       }
     ]
   ],
-  hash:true
+  history:"hash"
 }
