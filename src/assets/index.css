@@ -1,0 +1,86 @@
+@font-face {
+    font-family:'xiaoyao';
+    src: url(./xioayao.ttf);
+}
+@font-face {
+    font-family:'hefeng';
+    src: url(./hefeng.ttf);
+}
+@font-face {
+    font-family:'bowen';
+    src: url(./bowen.ttf);
+}
+
+html,body,p,div,h1,h2,h3,h4,h5,h6,ul,li,dl,dd,dt{margin:0;padding:0}
+li{list-style:none;}
+a{text-decoration:none;color:#444}
+html,body{
+    font-size:20px;
+}
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+
+header{
+    height:2.5rem;
+    position: fixed;
+    top:-0.2rem;
+    text-align:center;
+    line-height:2.5rem;
+    width:100%;
+    background:#faa;
+    color:#fff
+}
+
+header .am-icon{font-size:1.2rem;color:#000}
+
+section{
+    min-height:20rem;
+    padding:2.8rem 0.2rem;
+    margin-bottom:0.5rem;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    height:2.8rem;
+    border-top:0.05rem solid #ccc;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    padding-top:0.4rem;
+    background-color:#fff
+}
+/* footer img{
+    width:1rem;
+    margin-bottom:0.2rem;
+} */
+footer a{
+    display: block;
+    width:3.2rem;
+    text-align:center;
+    padding-top:1.4rem;
+    font:1.1rem/1.2rem xiaoyao;
+    background-size:1.2rem;
+    background-position:center top;
+    background-repeat:no-repeat;
+}
+footer a:first-child{
+    background-image:url(../assets/font_icon/movie.png);
+}
+footer a:nth-child(2){
+    background-image:url(../assets/font_icon/cinecism.png);
+}
+footer a:nth-child(3){
+    background-image:url(../assets/font_icon/video.png);
+}
+footer a:last-child{
+    background-image:url(../assets/font_icon/book.png);
+}
+
+
+
+
+
