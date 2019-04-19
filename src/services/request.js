@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 const serUrl = axios.create({
-    baseURL:"http://api.cat-shop.penkuoer.com/api/v2/proxy"
+    baseURL:"https://api.cat-shop.penkuoer.com/api/v2/proxy"
 })
 
 
