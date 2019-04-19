@@ -14,5 +14,5 @@ app.use(createLoading());
   app.use(plugin);
 });
 
-app.model({ namespace: 'movie', ...(require('F:/1809/last3/react-app/src/models/movie.js').default) });
-app.model({ namespace: 'title', ...(require('F:/1809/last3/react-app/src/models/title.js').default) });
+app.model({ namespace: 'movie', ...(require('F:/1809/last3/1/-Phantom/src/models/movie.js').default) });
+app.model({ namespace: 'title', ...(require('F:/1809/last3/1/-Phantom/src/models/title.js').default) });
