@@ -21,7 +21,7 @@ function Cinecism(props) {
     })
   },[])
   const {feedList} = props.cinecism;
-  console.log(props.cinecism.feedList)
+  // console.log(props.cinecism.feedList)
   return (
     <div>
       {feedList?feedList.map(item=>
